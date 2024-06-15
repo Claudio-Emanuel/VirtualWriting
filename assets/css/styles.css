@@ -73,7 +73,7 @@
 }
 
 /*TELA DE GÊNEROS*/
-body{
+.bodi{
     display: flex;
     padding-top:10% ;
     align-items: center;
