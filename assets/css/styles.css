@@ -75,11 +75,11 @@
 /*TELA DE GÊNEROS*/
 .bodi{
     display: flex;
-    padding-top:10% ;
-    align-items: center;
-    justify-content: center;
-}
+    gap: 16px;
+    height: 50vh;
+    flex-direction: column;
 
+}
 .efeito{
     border: none;
     color:#ffffff;
@@ -107,10 +107,11 @@
     border-radius: 10px;
     padding: 20px;
     border-color: #9370DB;
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     margin: 20px;
+    background-color: #ffffff;
+    
 }
 .line{
     border-radius: 10px;
@@ -125,4 +126,48 @@
     font-size: 30px;
     text-align: center;
 
+}
+
+.box-img{
+    margin: 0px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+.box-card{
+    flex-direction: column;
+    display: flex;
+    background-color: #b49edc;
+    width: 180px;
+    height: 360px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.card-h1{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+.card-h2{
+    font-size: .9rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+
+.buttun{
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: #7a5ebc;
+    width: 150px;
+    border-color: #ffffff;
+    box-shadow: none;
+}
+.card-h3{
+    color: #ffffff;
+    font-size: .8rem;
+    font-family: 'Courier New', Courier, monospace;
 }
